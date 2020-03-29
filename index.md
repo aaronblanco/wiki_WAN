@@ -16,8 +16,8 @@
  3.3 VPN. 
 3.4 GRE. 
 3.5 eBGP. 
-4 Glosario. 
-5 Bibliografía
+4. Glosario. 
+5. Bibliografía
 
 
 
