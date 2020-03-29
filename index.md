@@ -6,12 +6,12 @@
 1. Descripción general de las tecnologías WAN. 
 1. Tecnologías WAN: Descripción general. 
 2. Conexiones punto a punto.
- 2. Descripción general de punto a punto serie.
+ 2. Descripción general de punto a punto serie. 2.1.
  2. Operación de PPP. 
  2. Implementación de PPP.
  2. Solución de problemas de conectividad WAN. 
 3. Conexiones de sucursal. 
- 3. Conexiones de acceso remoto. 
+ 3. Conexiones de acceso remoto. 3.a
  3. PPPoE.
  3. VPN. 
  3. GRE. 
