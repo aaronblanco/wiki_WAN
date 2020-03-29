@@ -11,11 +11,11 @@
  * Implementación de PPP.
  * Solución de problemas de conectividad WAN. 
 3. Conexiones de sucursal. 
- 3. Conexiones de acceso remoto. 
- 3. PPPoE.
- 3. VPN. 
- 3. GRE. 
- 3. eBGP. 
+ * Conexiones de acceso remoto. 
+ * PPPoE.
+ * VPN. 
+ * GRE. 
+ * eBGP. 
 4. Glosario. 
 5. Bibliografía
 
