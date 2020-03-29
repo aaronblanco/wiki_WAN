@@ -8,11 +8,11 @@
 2. Conexiones punto a punto.
  2.1 Descripción general de punto a punto serie.
  2.2 Operación de PPP. 
-2.3 Implementación de PPP.
+ 2.3 Implementación de PPP.
  2.4 Solución de problemas de conectividad WAN. 
 3. Conexiones de sucursal. 
-3.1 Conexiones de acceso remoto. 
-3.2 PPPoE.
+ 3.1 Conexiones de acceso remoto. 
+ 3.2 PPPoE.
  3.3 VPN. 
 3.4 GRE. 
 3.5 eBGP. 
@@ -20,10 +20,4 @@
 5 Bibliografía
 
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
