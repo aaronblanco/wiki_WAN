@@ -11,7 +11,7 @@
  2. Implementación de PPP.
  2. Solución de problemas de conectividad WAN. 
 3. Conexiones de sucursal. 
- 3. Conexiones de acceso remoto. 3.a
+ 3. Conexiones de acceso remoto. 
  3. PPPoE.
  3. VPN. 
  3. GRE. 
@@ -19,5 +19,9 @@
 4. Glosario. 
 5. Bibliografía
 
-
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
 
