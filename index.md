@@ -3,7 +3,7 @@
 
 
 ## Contenidos:
- **Descripción general de las tecnologías WAN.** 
+
 1. Tecnologías WAN: Descripción general. 
 2. Conexiones punto a punto.
  * Descripción general de punto a punto serie. 
