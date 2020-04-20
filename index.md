@@ -47,7 +47,10 @@ Malla completa: Los diversos nodos se conectan a cualquier otro directamente sin
 Topología de seguridad preventiva doble: Red que implementa la rebundancia entre las distintas conexiones, la más costosa.
 
 
-
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 
 
@@ -66,9 +69,6 @@ ISP: El proveedor de servicios de Internet, (ISP, por las siglas en inglés de I
 
 ## 5. Bibliografía
 NODO50 [Introducción a Internet](https://www.nodo50.org/manuales/internet/1.htm) [Consulta 10 de Abril de 2020]
-Definicion.de Definicion de WAN 
-https://definicion.de/wan/ [Consulta 10 de Abril de 2020]
-WIKIPEDIA Proveedor de servicios de internet
-https://es.wikipedia.org/wiki/Proveedor_de_servicios_de_Internet [Consulta 10 de Abril de 2020]
-EcuRed Red de área extensa (WAN)
-https://www.ecured.cu/Red_de_%C3%A1rea_extensa_(WAN) [Consulta 19 de Abril de 2020]
+Definicion.de [Definicion de WAN](https://definicion.de/wan/) [Consulta 10 de Abril de 2020]
+WIKIPEDIA [Proveedor de servicios de internet](https://es.wikipedia.org/wiki/Proveedor_de_servicios_de_Internet) [Consulta 10 de Abril de 2020]
+EcuRed [Red de área extensa (WAN)](https://www.ecured.cu/Red_de_%C3%A1rea_extensa_(WAN)) [Consulta 19 de Abril de 2020]
