@@ -21,7 +21,7 @@
 
 
 ## 1. Tecnologías WAN: Descripción general. 
-
+![Imagen WAN](./1018px-LAN_WAN_scheme.svg.png)
 La WAN en definitiva es una red mas amplia que una LAN, red local, el mejor ejemplo de ello es internet. Detrás de internet nos podemos remontar al origen como tal de ARPAnet, el proyecto de ARPA, implicaba la conexión a través de distintos nodos ubicados en puntos geográficamente alejados. La idea central de esta red era conseguir que la información llegara a su destino aunque parte de la red estuviera destruida.
 De esta manera, paulatinamente se alcanzaría la conexión entre las LAN, conforme se abrió al resto de organizaciones y en definitiva a los ciudadanos, se llegaría al internet tal y cómo lo conocemos.
 
@@ -69,6 +69,9 @@ ISP: El proveedor de servicios de Internet, (ISP, por las siglas en inglés de I
 
 ## 5. Bibliografía
 NODO50 [Introducción a Internet](https://www.nodo50.org/manuales/internet/1.htm) [Consulta 10 de Abril de 2020]
+
 Definicion.de [Definicion de WAN](https://definicion.de/wan/) [Consulta 10 de Abril de 2020]
+
 WIKIPEDIA [Proveedor de servicios de internet](https://es.wikipedia.org/wiki/Proveedor_de_servicios_de_Internet) [Consulta 10 de Abril de 2020]
+
 EcuRed [Red de área extensa (WAN)](https://www.ecured.cu/Red_de_%C3%A1rea_extensa_(WAN)) [Consulta 19 de Abril de 2020]
