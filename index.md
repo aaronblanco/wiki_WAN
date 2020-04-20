@@ -65,8 +65,7 @@ ISO: International Organization for Standardization, organización internacional
 ISP: El proveedor de servicios de Internet, (ISP, por las siglas en inglés de Internet service provider) es la empresa que brinda conexión a Internet a sus clientes.
 
 ## 5. Bibliografía
-NODO50 (Introducción a Internet
-https://www.nodo50.org/manuales/internet/1.htm) [Consulta 10 de Abril de 2020]
+NODO50 [Introducción a Internet](https://www.nodo50.org/manuales/internet/1.htm) [Consulta 10 de Abril de 2020]
 Definicion.de Definicion de WAN 
 https://definicion.de/wan/ [Consulta 10 de Abril de 2020]
 WIKIPEDIA Proveedor de servicios de internet
