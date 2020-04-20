@@ -23,29 +23,29 @@
 ## 1. Tecnologías WAN: Descripción general. 
 ![Imagen WAN](./1018px-LAN_WAN_scheme.svg.png)
 
-La WAN en definitiva es una red mas amplia que una LAN, red local, el mejor ejemplo de ello es internet. Detrás de internet nos podemos remontar al origen como tal de ARPAnet, el proyecto de ARPA, implicaba la conexión a través de distintos nodos ubicados en puntos geográficamente alejados. La idea central de esta red era conseguir que la información llegara a su destino aunque parte de la red estuviera destruida.
-De esta manera, paulatinamente se alcanzaría la conexión entre las LAN, conforme se abrió al resto de organizaciones y en definitiva a los ciudadanos, se llegaría al internet tal y cómo lo conocemos.
+**La WAN en definitiva es una red mas amplia que una LAN, red local, el mejor ejemplo de ello es internet. Detrás de internet nos podemos remontar al origen como tal de ARPAnet, el proyecto de ARPA, implicaba la conexión a través de distintos nodos ubicados en puntos geográficamente alejados. La idea central de esta red era conseguir que la información llegara a su destino aunque parte de la red estuviera destruida.
+De esta manera, paulatinamente se alcanzaría la conexión entre las LAN, conforme se abrió al resto de organizaciones y en definitiva a los ciudadanos, se llegaría al internet tal y cómo lo conocemos.**
 
-Con el tiempo y con la ampliación de su uso, se necesitó una organización capaz de crear unos estándares y protocolos para permitir una mejor interconexión entre distintos dispositivos, para ello surgió la ISO.
+**Con el tiempo y con la ampliación de su uso, se necesitó una organización capaz de crear unos estándares y protocolos para permitir una mejor interconexión entre distintos dispositivos, para ello surgió la ISO.**
 
-Junto a ello, diversas empresas (ISP) empezarón a crear su propia infraestructura de red, y con ello llevar la teconología a los hogares, para ello ampliando los nodos de interconexión en la WAN global que es internet. 
-
-
--------------------------------------------
+**Junto a ello, diversas empresas (ISP) empezarón a crear su propia infraestructura de red, y con ello llevar la teconología a los hogares, para ello ampliando los nodos de interconexión en la WAN global que es internet.** 
 
 
 -------------------------------------------
 
-En paralelo ha sido necesario la inclusión de distintas tecnologías para poder llevar la carga de multitud de nuevos dispositivos conectados.
-En referencia a la topología de las wan, estas se organizan de la siguiente manera:
 
-Red punto a punto: Cada nodo se conecta con los demás a través de circuitos dedicados, que siempre están disponibles para la comunicación entre dos puntos.
+-------------------------------------------
 
-Red en estrella: Un nodo central sirve de nexo para comunicar todos los demás nodos de la subred entre sí.
+**En paralelo ha sido necesario la inclusión de distintas tecnologías para poder llevar la carga de multitud de nuevos dispositivos conectados.
+En referencia a la topología de las wan, estas se organizan de la siguiente manera:**
 
-Malla completa: Los diversos nodos se conectan a cualquier otro directamente sin pasar por un hub central. 
+**Red punto a punto: Cada nodo se conecta con los demás a través de circuitos dedicados, que siempre están disponibles para la comunicación entre dos puntos.**
 
-Topología de seguridad preventiva doble: Red que implementa la rebundancia entre las distintas conexiones, la más costosa.
+**Red en estrella: Un nodo central sirve de nexo para comunicar todos los demás nodos de la subred entre sí.**
+
+**Malla completa: Los diversos nodos se conectan a cualquier otro directamente sin pasar por un hub central.**
+
+**Topología de seguridad preventiva doble: Red que implementa la rebundancia entre las distintas conexiones, la más costosa.**
 
  | 
 ------------ | -------------
@@ -55,17 +55,29 @@ Topología de seguridad preventiva doble: Red que implementa la rebundancia entr
 
 
 ## 2. Conexiones punto a punto.
+* **Descripción general de punto a punto serie.** 
 
-La tecnología PPP es un protocolo de la capa de enlace propuesto por la IETF en 1989. Su principal función es la de facilitar las transmisión de paquetes entre enlaces punto a punto. Tecnología que actualmente adoptan los ISPs del mundo para proveer acceso a internet. PPP usa el Link Control Protocol (LCP) para establecer una sesión entre el ordenador del usuario y el ISP que le ofrece servicios de conexión. Los paquetes LCP intercambian la información entre los distintos enlaces para determinar carácteristicas como la identidad de los distintos dispositivos o el tamaño del paquete.
+**La tecnología PPP es un protocolo de la capa de enlace propuesto por la IETF en 1989. Su principal función es la de facilitar las transmisión de paquetes entre enlaces punto a punto. Tecnología que actualmente adoptan los ISPs del mundo para proveer acceso a internet. PPP usa el Link Control Protocol (LCP) para establecer una sesión entre el ordenador del usuario y el ISP que le ofrece servicios de conexión. Los paquetes LCP intercambian la información entre los distintos enlaces para determinar carácteristicas como la identidad de los distintos dispositivos o el tamaño del paquete.
 Otro de los componentes fundamentales de las conexiones punto a punto son los Authentication Protocols (AP), estos se dan de distintas formas, por una parte el protocolo Password Authentication Protocol (PAP), este es un protocolo de verificación de acceso mediante usuario y contraseña, no obstante no es el más seguro ya que las contraseñas no están cifradas. Por otra parte, existe el Challenge Handshake Authentication Protocol (CHAP), este protocolo utiliza un número aleatorio del servidor que es enviado al ordenador del usuario, este encripta la contraseña con ese valor y se lo devuelve al servidor.
-Existen otros métodos de autentificación para otros tipos de conexiones.
+Existen otros métodos de autentificación para otros tipos de conexiones.**
 
+ * **Operación de PPP.** 
+ 
+ * **Implementación de PPP.**
+ 
+ * **Solución de problemas de conectividad WAN.** 
 
 ## 3. Conexiones de sucursal. 
 
-
+ * Conexiones de acceso remoto. 
+ * PPPoE.
+ * VPN. 
+ * GRE. 
+ * eBGP. 
+ 
+ 
 ## 4. Glosario. 
-WAN: Wide Area Network, Red de Área Amplia.
+**WAN: Wide Area Network, Red de Área Amplia.
 ARPA: Advanced Research Projects Agency, Agencia de Proyectos de Investigación Avanzados.
 ISO: International Organization for Standardization, organización internacional dedicada a la supervisión y creación de protocolos, y estandar de tecnologías. 
 ISP: El proveedor de servicios de Internet, (ISP, por las siglas en inglés de Internet service provider) es la empresa que brinda conexión a Internet a sus clientes.
@@ -73,7 +85,7 @@ PPP: Protocolo de conexión punto a punto.
 LCP: Link Control Protocol, forma parte de las conexiones punto a punto, se encarga de preparar las comunicaciones mediante envios de paquetes LCP para establecer la tramisión de datos.
 AP: Protocolo de autenticación.
 PAP: Protocolo de autentificación por contraseña.
-CHAP: Protocolo de autentificación por Handshake(Establecimiento de conexión).
+CHAP: Protocolo de autentificación por Handshake(Establecimiento de conexión).**
 
 ## 5. Bibliografía
 NODO50 [Introducción a Internet](https://www.nodo50.org/manuales/internet/1.htm) [Consulta 10 de Abril de 2020]
