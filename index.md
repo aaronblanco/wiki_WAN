@@ -57,11 +57,18 @@ En referencia a la topología de las wan, estas se organizan de la siguiente man
 ## 2. Conexiones punto a punto.
 * **Descripción general de punto a punto serie.** 
 
-**La tecnología PPP es un protocolo de la capa de enlace propuesto por la IETF en 1989. Su principal función es la de facilitar las transmisión de paquetes entre enlaces punto a punto. Tecnología que actualmente adoptan los ISPs del mundo para proveer acceso a internet. PPP usa el Link Control Protocol (LCP) para establecer una sesión entre el ordenador del usuario y el ISP que le ofrece servicios de conexión. Los paquetes LCP intercambian la información entre los distintos enlaces para determinar carácteristicas como la identidad de los distintos dispositivos o el tamaño del paquete.
-Otro de los componentes fundamentales de las conexiones punto a punto son los Authentication Protocols (AP), estos se dan de distintas formas, por una parte el protocolo Password Authentication Protocol (PAP), este es un protocolo de verificación de acceso mediante usuario y contraseña, no obstante no es el más seguro ya que las contraseñas no están cifradas. Por otra parte, existe el Challenge Handshake Authentication Protocol (CHAP), este protocolo utiliza un número aleatorio del servidor que es enviado al ordenador del usuario, este encripta la contraseña con ese valor y se lo devuelve al servidor.
+**La tecnología PPP es un protocolo de la capa de enlace propuesto por la IETF en 1989. Esta se usa en los router de Cisco en sustitución de su HDLC cuando se conectan a otros router que no son Cisco ya que usan el High-Level Data Link Control (HDLC). Su principal función es la de facilitar las transmisión de paquetes entre enlaces punto a punto. Tecnología que actualmente adoptan los ISPs del mundo para proveer acceso a internet. PPP usa el Link Control Protocol (LCP) para establecer una sesión entre el ordenador del usuario y el ISP que le ofrece servicios de conexión. Los paquetes LCP intercambian la información entre los distintos enlaces para determinar carácteristicas como la identidad de los distintos dispositivos o el tamaño del paquete.**
+
+**Otro de los componentes fundamentales de las conexiones punto a punto son los Authentication Protocols (AP), estos se dan de distintas formas, por una parte el protocolo Password Authentication Protocol (PAP), este es un protocolo de verificación de acceso mediante usuario y contraseña, no obstante no es el más seguro ya que las contraseñas no están cifradas.** 
+
+**Por otra parte, existe el Challenge Handshake Authentication Protocol (CHAP), este protocolo utiliza un número aleatorio del servidor que es enviado al ordenador del usuario, este encripta la contraseña con ese valor y se lo devuelve al servidor.
 Existen otros métodos de autentificación para otros tipos de conexiones.**
 
  * **Operación de PPP.** 
+ 
+ **Con un sector tecnológico en auge, la proliferación de tecnologías de diversos frabricantes han hecho necesaria la implantación de divertas formas comunes de comunicación. De ahí el orgen de PPP, el cual se planteó como un protocolo que tendría que ser compatible para el hardware. Este se organiza de manera que en el modelo OSI ocupa dos capas, por una parte, la capa de red y por otra, encapsula otros protocolos de la capa de enlace. **
+ 
+ ![Imagen PPP](./protocoloPPP.png)
  
  * **Implementación de PPP.**
  
@@ -77,15 +84,27 @@ Existen otros métodos de autentificación para otros tipos de conexiones.**
  
  
 ## 4. Glosario. 
-**WAN: Wide Area Network, Red de Área Amplia.
-ARPA: Advanced Research Projects Agency, Agencia de Proyectos de Investigación Avanzados.
-ISO: International Organization for Standardization, organización internacional dedicada a la supervisión y creación de protocolos, y estandar de tecnologías. 
-ISP: El proveedor de servicios de Internet, (ISP, por las siglas en inglés de Internet service provider) es la empresa que brinda conexión a Internet a sus clientes.
-PPP: Protocolo de conexión punto a punto.
-LCP: Link Control Protocol, forma parte de las conexiones punto a punto, se encarga de preparar las comunicaciones mediante envios de paquetes LCP para establecer la tramisión de datos.
-AP: Protocolo de autenticación.
-PAP: Protocolo de autentificación por contraseña.
-CHAP: Protocolo de autentificación por Handshake(Establecimiento de conexión).**
+**WAN:** Wide Area Network, Red de Área Amplia.
+
+**ARPA:** Advanced Research Projects Agency, Agencia de Proyectos de Investigación Avanzados.
+
+**ISO:** International Organization for Standardization, organización internacional dedicada a la supervisión y creación de protocolos, y estandar de tecnologías. 
+
+**ISP:** El proveedor de servicios de Internet, (ISP, por las siglas en inglés de Internet service provider) es la empresa que brinda conexión a Internet a sus clientes.
+
+**PPP:** Protocolo de conexión punto a punto.
+
+**LCP:** Link Control Protocol, forma parte de las conexiones punto a punto, se encarga de preparar las comunicaciones mediante envios de paquetes LCP para establecer la tramisión de datos.
+
+**AP:** Protocolo de autenticación.
+
+**PAP:** Protocolo de autentificación por contraseña.
+
+**CHAP:** Protocolo de autentificación por Handshake(Establecimiento de conexión).
+
+**HDLC:** Protocolo de capa de enlace usado por Cisco que encapsula tramas de datos.
+
+
 
 ## 5. Bibliografía
 NODO50 [Introducción a Internet](https://www.nodo50.org/manuales/internet/1.htm) [Consulta 10 de Abril de 2020]
@@ -101,3 +120,6 @@ Tutorialspoint [Conexion punto a punto](https://www.tutorialspoint.com/point-to-
 Whatismyipaddress [Conexion punto a punto](https://whatismyipaddress.com/ppp-pppoe)[Consulta 20 de Abril de 2020]
 
 Wikipedia [Link Control Protocol](https://en.wikipedia.org/wiki/Link_Control_Protocol)[Consulta 20 de Abril de 2020]
+
+Wikipedia [High-Data Link Control](https://en.wikipedia.org/wiki/High-Level_Data_Link_Control)[Consulta 21 de Abril de 2020]
+
