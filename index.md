@@ -64,7 +64,7 @@ En referencia a la topología de las wan, estas se organizan de la siguiente man
  
  **Con un sector tecnológico en auge, la proliferación de tecnologías de diversos frabricantes han hecho necesaria la implantación de divertas formas comunes de comunicación. De ahí el orgen de PPP, el cual se planteó como un protocolo que tendría que ser compatible para el hardware. Este se organiza de manera que en el modelo OSI ocupa dos capas, por una parte, la capa de red y por otra, encapsula otros protocolos de la capa de enlace. **
  
- ![Imagen PPP](./protocoloPPP.png)
+ ![imagen PPP](./protocoloPPP.png)
  
  **PP encapsula en tramas de 6 campos que permiten intercambiar la información tras usar los distintos pasos.**
  
