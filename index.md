@@ -57,12 +57,8 @@ En referencia a la topología de las wan, estas se organizan de la siguiente man
 ## 2. Conexiones punto a punto.
 * **Descripción general de punto a punto serie.** 
 
-**La tecnología PPP es un protocolo de la capa de enlace propuesto por la IETF en 1989. Esta se usa en los router de Cisco en sustitución de su HDLC cuando se conectan a otros router que no son Cisco ya que usan el High-Level Data Link Control (HDLC). Su principal función es la de facilitar las transmisión de paquetes entre enlaces punto a punto. Tecnología que actualmente adoptan los ISPs del mundo para proveer acceso a internet. PPP usa el Link Control Protocol (LCP) para establecer una sesión entre el ordenador del usuario y el ISP que le ofrece servicios de conexión. Los paquetes LCP intercambian la información entre los distintos enlaces para determinar carácteristicas como la identidad de los distintos dispositivos o el tamaño del paquete.**
+**La tecnología PPP es un protocolo de la capa de enlace propuesto por la IETF en 1989. Esta se usa en los router de Cisco en sustitución de su HDLC cuando se conectan a otros router que no son Cisco ya que usan el High-Level Data Link Control (HDLC). Su principal función es la de facilitar las transmisión de paquetes entre enlaces punto a punto. Tecnología que actualmente adoptan los ISPs del mundo para proveer acceso a internet.**
 
-**Otro de los componentes fundamentales de las conexiones punto a punto son los Authentication Protocols (AP), estos se dan de distintas formas, por una parte el protocolo Password Authentication Protocol (PAP), este es un protocolo de verificación de acceso mediante usuario y contraseña, no obstante no es el más seguro ya que las contraseñas no están cifradas.** 
-
-**Por otra parte, existe el Challenge Handshake Authentication Protocol (CHAP), este protocolo utiliza un número aleatorio del servidor que es enviado al ordenador del usuario, este encripta la contraseña con ese valor y se lo devuelve al servidor.
-Existen otros métodos de autentificación para otros tipos de conexiones.**
 
  * **Operación de PPP.** 
  
@@ -70,8 +66,18 @@ Existen otros métodos de autentificación para otros tipos de conexiones.**
  
  ![Imagen PPP](./protocoloPPP.png)
  
+ **PP encapsula en tramas de 6 campos que permiten intercambiar la información tras usar los distintos pasos.**
+ 
+ **PPP usa el Link Control Protocol (LCP) para establecer una sesión entre el ordenador del usuario y el ISP que le ofrece servicios de conexión. Los paquetes LCP intercambian la información entre los distintos enlaces para determinar carácteristicas como la identidad de los distintos dispositivos o el tamaño del paquete.**
+ 
+
+ 
  * **Implementación de PPP.**
  
+ **Otro de los componentes fundamentales de las conexiones punto a punto son los Authentication Protocols (AP), estos se dan de distintas formas, por una parte el protocolo Password Authentication Protocol (PAP), este es un protocolo de verificación de acceso mediante usuario y contraseña, no obstante no es el más seguro ya que las contraseñas no están cifradas.** 
+
+**Por otra parte, existe el Challenge Handshake Authentication Protocol (CHAP), este protocolo utiliza un número aleatorio del servidor que es enviado al ordenador del usuario, este encripta la contraseña con ese valor y se lo devuelve al servidor.
+Existen otros métodos de autentificación para otros tipos de conexiones.**
  * **Solución de problemas de conectividad WAN.** 
 
 ## 3. Conexiones de sucursal. 
