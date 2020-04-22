@@ -62,7 +62,7 @@ En referencia a la topología de las wan, estas se organizan de la siguiente man
 
  * **Operación de PPP.** 
  
- **Con un sector tecnológico en auge, la proliferación de tecnologías de diversos frabricantes han hecho necesaria la implantación de divertas formas comunes de comunicación. De ahí el orgen de PPP, el cual se planteó como un protocolo que tendría que ser compatible para el hardware. Este se organiza de manera que en el modelo OSI ocupa dos capas, por una parte, la capa de red y por otra, encapsula otros protocolos de la capa de enlace. **
+ **Con un sector tecnológico en auge, la proliferación de tecnologías de diversos frabricantes han hecho necesaria la implantación de divertas formas comunes de comunicación. De ahí el orgen de PPP, el cual se planteó como un protocolo que tendría que ser compatible para el hardware. Este se organiza de manera que en el modelo OSI ocupa dos capas, por una parte, la capa de red y por otra, encapsula otros protocolos de la capa de enlace.**
  
  ![imagen PPP](./protocoloPPP.png)
  
@@ -77,8 +77,10 @@ En referencia a la topología de las wan, estas se organizan de la siguiente man
  **Otro de los componentes fundamentales de las conexiones punto a punto son los Authentication Protocols (AP), estos se dan de distintas formas, por una parte el protocolo Password Authentication Protocol (PAP), este es un protocolo de verificación de acceso mediante usuario y contraseña, no obstante no es el más seguro ya que las contraseñas no están cifradas.** 
 
 **Por otra parte, existe el Challenge Handshake Authentication Protocol (CHAP), este protocolo utiliza un número aleatorio del servidor que es enviado al ordenador del usuario, este encripta la contraseña con ese valor y se lo devuelve al servidor.
-Existen otros métodos de autentificación para otros tipos de conexiones.**
+Existen otros métodos de autentificación para otros tipos de conexiones inhalambricas como el EAP.**
+
  * **Solución de problemas de conectividad WAN.** 
+ 
 
 ## 3. Conexiones de sucursal. 
 
@@ -129,3 +131,4 @@ Wikipedia [Link Control Protocol](https://en.wikipedia.org/wiki/Link_Control_Pro
 
 Wikipedia [High-Data Link Control](https://en.wikipedia.org/wiki/High-Level_Data_Link_Control)[Consulta 21 de Abril de 2020]
 
+Cisco Netacad [Solucionar Problemas PPP](https://static-course-assets.s3.amazonaws.com/ConnectNet6/es/index.html#2.4.1)
