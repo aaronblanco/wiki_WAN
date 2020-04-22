@@ -32,8 +32,16 @@ De esta manera, paulatinamente se alcanzaría la conexión entre las LAN, confor
 
 -------------------------------------------
 
+**Como tal, han ido evolucionando de manera que contamos con diversas tecnologías 
 
--------------------------------------------
+Tecnología | Características
+------------ | -------------
+IP/MPLS | Técnica de superposición diseñada para simplificar mediante la conmutación de paquetes usando algunas carácteristicas de redes no orientadas a la conexión.
+PDH | Primer estandar de transmisión digital el cual multiplexa las señales, se propuso como una manera de unificar la tecnología en todo el mundo.
+SDH | Derivado del SDH, esta nueva tecnología síncrona mejoraría las debilidades de su antecesor, especificando velocidaides de transmisión, el formato, o el mismo funcionamiento de los equipos.
+SONET | Estandar para multiplexar tráfico digital, similar al SDH pero usado en Norteamérica. 
+ATM | Se utilizó sobre la red troncal SONET/SDH, de forma asíncrona, se diseñó para gestionar tráfico de datos y voz y video de baja latencia. 
+X.25 | Recomendación actuan en deshuso, define niveles de capa física, datos y red. Es una interfaz entre los terminales de datos y sus destinos. Funcionan como paquetes.
 
 **En paralelo ha sido necesario la inclusión de distintas tecnologías para poder llevar la carga de multitud de nuevos dispositivos conectados.
 En referencia a la topología de las wan, estas se organizan de la siguiente manera:**
@@ -46,13 +54,9 @@ En referencia a la topología de las wan, estas se organizan de la siguiente man
 
 **Topología de seguridad preventiva doble: Red que implementa la rebundancia entre las distintas conexiones, la más costosa.**
 
- | 
------------- | -------------
-| 
-| 
 
 
-
+-------------------------------------------
 ## 2. Conexiones punto a punto.
 * **Descripción general de punto a punto serie.** 
 
@@ -128,4 +132,15 @@ Wikipedia [Link Control Protocol](https://en.wikipedia.org/wiki/Link_Control_Pro
 
 Wikipedia [High-Data Link Control](https://en.wikipedia.org/wiki/High-Level_Data_Link_Control)[Consulta 21 de Abril de 2020]
 
+Ionos [Los tipos de redes más conocidos](https://www.ionos.es/digitalguide/servidores/know-how/los-tipos-de-redes-mas-conocidos/)[Consulta 22 de Abril de 2020]
+
+Ramonmillan [Qué es... MPLS](https://www.ramonmillan.com/tutoriales/mpls.php)[Consulta 22 de Abril de 2020]
+
+Ramonmillan [SDH Y PDH](https://www.ramonmillan.com/tutoriales/mpls.php)[Consulta 22 de Abril de 2020]
+
+Cisco [A Brief Overview of SONET Technology](https://www.cisco.com/c/en/us/support/docs/optical/synchronous-optical-network-sonet/13567-sonet-tech-tips.html)[Consulta 22 de Abril de 2020]
+
+Wikipedia [Estandar ATM](https://es.wikipedia.org/wiki/Modo_de_transferencia_as%C3%ADncrona)[Consulta 22 de Abril de 2020]
+
+IBM [Redes X.25](https://www.ibm.com/support/knowledgecenter/es/ssw_ibm_i_72/rzajt/rzajtx25con.htm)[Consulta 22 de Abril de 2020]
 
