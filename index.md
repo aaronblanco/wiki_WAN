@@ -64,7 +64,7 @@ En referencia a la topología de las wan, estas se organizan de la siguiente man
  
  **Con un sector tecnológico en auge, la proliferación de tecnologías de diversos frabricantes han hecho necesaria la implantación de divertas formas comunes de comunicación. De ahí el orgen de PPP, el cual se planteó como un protocolo que tendría que ser compatible para el hardware. Este se organiza de manera que en el modelo OSI ocupa dos capas, por una parte, la capa de red y por otra, encapsula otros protocolos de la capa de enlace.**
  
- ![imagen PPP](./protocoloPPP.png)
+ ![imagenPPP](./protocoloPPP.png)
  
  **PP encapsula en tramas de 6 campos que permiten intercambiar la información tras usar los distintos pasos.**
  
@@ -131,4 +131,4 @@ Wikipedia [Link Control Protocol](https://en.wikipedia.org/wiki/Link_Control_Pro
 
 Wikipedia [High-Data Link Control](https://en.wikipedia.org/wiki/High-Level_Data_Link_Control)[Consulta 21 de Abril de 2020]
 
-Cisco Netacad [Solucionar Problemas PPP](https://static-course-assets.s3.amazonaws.com/ConnectNet6/es/index.html#2.4.1)
+
