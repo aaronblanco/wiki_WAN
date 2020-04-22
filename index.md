@@ -29,10 +29,7 @@ De esta manera, paulatinamente se alcanzaría la conexión entre las LAN, confor
 
 **Junto a ello, diversas empresas (ISP) empezarón a crear su propia infraestructura de red, y con ello llevar la teconología a los hogares, para ello ampliando los nodos de interconexión en la WAN global que es internet.** 
 
-
--------------------------------------------
-
-**Como tal, han ido evolucionando de manera que contamos con diversas tecnologías 
+**Como tal, han ido evolucionando de manera que contamos con diversas tecnologías que han sido las encargadas de permitir las distintas conexiones mediante distintos dispositivos o redes. Algunas de ellas son:**
 
 Tecnología | Características
 ------------ | -------------
