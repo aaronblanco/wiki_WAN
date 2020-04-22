@@ -9,7 +9,6 @@
  * **Descripción general de punto a punto serie.** 
  * **Operación de PPP.** 
  * **Implementación de PPP.**
- * **Solución de problemas de conectividad WAN.** 
 3. **Conexiones de sucursal.** 
  * **Conexiones de acceso remoto.** 
  * **PPPoE.**
@@ -79,8 +78,6 @@ En referencia a la topología de las wan, estas se organizan de la siguiente man
 **Por otra parte, existe el Challenge Handshake Authentication Protocol (CHAP), este protocolo utiliza un número aleatorio del servidor que es enviado al ordenador del usuario, este encripta la contraseña con ese valor y se lo devuelve al servidor.
 Existen otros métodos de autentificación para otros tipos de conexiones inhalambricas como el EAP.**
 
- * **Solución de problemas de conectividad WAN.** 
- 
 
 ## 3. Conexiones de sucursal. 
 
