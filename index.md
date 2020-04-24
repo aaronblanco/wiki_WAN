@@ -14,7 +14,7 @@
  * **PPPoE.**
  * **VPN.** 
  * **GRE.** 
- * **eBGP.** 
+ * **BGP.** 
 4. **Glosario.** 
 5. **Bibliografía**
 
@@ -81,12 +81,23 @@ Existen otros métodos de autentificación para otros tipos de conexiones inhala
 
 
 ## 3. Conexiones de sucursal. 
+**Hoy en día las empresas que se situan en lugares geográficamente distintos necesitan una manera de compartir recursos en una situación similar a las LAN, de ahí que muchas empresas tengan su red WAN privada en la que usuarios de distintos continentes pueden estar en contacto directo.
+No obstante, el hecho de usar conexiones a través de las infraestructuras existentes, el internet público que conocemos, ha hecho descubrir necesidades nuevas que van desde la misma conexión a la seguridad. Para ello, hay diversas tecnologías que podemos usar.**
 
- * **Conexiones de acceso remoto.** 
+* **Conexiones de acceso remoto.** 
+ **Un clásico hoy en día como las conexiones de acceso remoto, permiten la conexión a otro ordenador a través de internet, de esta manera se pueden solucionar problemas sin tener que acceder a la ubicación del ordenador remoto.**
+ 
  * **PPPoE.**
+ **Este protocolo consigue unir Ethernet con el protocolo PPP, de ahí que se encapsula en este protocolo para no perder los beneficios de ambos. **
+ 
  * **VPN.** 
+ **Con una mayor relevancia de las conexiones remotas desde cualquier lado, para preservar la seguridad, se creó este protocolo el cual permite la encriptación al igual que la privacidad. **
+ 
  * **GRE.** 
- * **eBGP.** 
+ **El protocolo GRE (Generic Routing Encapsulation) sigue un poco la filosofía del VPN, permite "tunelizar" los paquetes a través de internet, posibilitando así su anonimato.**
+ 
+ * **BGP.** 
+ **Este protocolo se usa para intercambiar información entre routers y así rellenar sus tablas, se suele usar principalmente el eBGP, es decir, externo entre ISPs para tener la información necesaria para enrouter las distintas tramas de datos aunque existe la versión iBGP para redes internas. **
  
  
 ## 4. Glosario. 
@@ -141,3 +152,8 @@ Wikipedia [Estandar ATM](https://es.wikipedia.org/wiki/Modo_de_transferencia_as%
 
 IBM [Redes X.25](https://www.ibm.com/support/knowledgecenter/es/ssw_ibm_i_72/rzajt/rzajtx25con.htm)[Consulta 22 de Abril de 2020]
 
+ADSLzone [¿Qué es PPPoE y PPPoA?](https://www.adslzone.net/adsl_pppoe.html)
+
+Wikipedia [GRE](https://es.wikipedia.org/wiki/GRE)
+
+Wikipedia [BGP](https://es.wikipedia.org/wiki/Border_Gateway_Protocol)
