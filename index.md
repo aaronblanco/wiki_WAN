@@ -32,7 +32,7 @@ De esta manera, paulatinamente se alcanzaría la conexión entre las LAN, confor
 
 **Algunos de los proveedores existentes de WAN en España son los siguientes:**
 
-**Operadores | Características**
+**Operadores** | **Características**
 ------------ | -------------
 **Movistar** | Movistar ofrece un servicio llamado Flex WAN que incluye elementos de gestión centralizada de portales web con  informes, servicios virtualizados, etc. Además cuenta con la mayor infraestructura de red en el país.
 **Orange** | Orange ofrece centralización de la gestión y configuración además nos permite optimizar el enrutamiento de los paquetes a nivel de aplicación, lo cual permite escoger las mejores rutas.
@@ -41,7 +41,7 @@ De esta manera, paulatinamente se alcanzaría la conexión entre las LAN, confor
 
 **Como tal, han ido evolucionando de manera que contamos con diversas tecnologías que han sido las encargadas de permitir las distintas conexiones mediante distintos dispositivos o redes. Algunas de ellas son:**
 
-**Tecnología | Características**
+**Tecnología** | **Características**
 ------------ | -------------
 **IP/MPLS** | Técnica de superposición diseñada para simplificar mediante la conmutación de paquetes usando algunas carácteristicas de redes no orientadas a la conexión.
 **PDH** | Primer estandar de transmisión digital el cual multiplexa las señales, se propuso como una manera de unificar la tecnología en todo el mundo.
