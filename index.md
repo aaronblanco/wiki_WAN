@@ -93,12 +93,15 @@ No obstante, el hecho de usar conexiones a través de las infraestructuras exist
  
  * **VPN.** 
  **Con una mayor relevancia de las conexiones remotas desde cualquier lado, para preservar la seguridad, se creó este protocolo el cual permite la encriptación al igual que la privacidad.**
+ ![Imagen VPN](./vpn.jpg)
+
  
  * **GRE.** 
  **El protocolo GRE (Generic Routing Encapsulation) sigue un poco la filosofía del VPN, permite "tunelizar" los paquetes a través de internet, posibilitando así su anonimato.**
  
  * **BGP.** 
  **Este protocolo se usa para intercambiar información entre routers y así rellenar sus tablas, se suele usar principalmente el eBGP, es decir, externo entre ISPs para tener la información necesaria para enrouter las distintas tramas de datos aunque existe la versión iBGP para redes internas.**
+  ![Imagen BGP](./bgp.png)
  
 ## 4. Redes WAN híbridas.
 **Actualmente las empresas están migrando sus datos de sus servidores locales a la nube, es una realidad, ahí es cuando entra la red híbrida. La red híbrida mantiene las conexiones MPLS más tradicionales para el tráfico esencial, no obstante, hay muchas situaciones en las que no es necesario una red WAN privada mucho más costosa. De ahí surge SD-WAN, una manera de administrar la red por software.
@@ -167,6 +170,6 @@ Wikipedia [GRE](https://es.wikipedia.org/wiki/GRE)[Consulta 24 de Abril de 2020]
 
 Wikipedia [BGP](https://es.wikipedia.org/wiki/Border_Gateway_Protocol)[Consulta 24 de Abril de 2020]
 
-Parada Visual [¿Qué es SD-WAN definida por software?](https://www.paradavisual.com/que-es-sd-wan-definida-por-software/)
+Parada Visual [¿Qué es SD-WAN definida por software?](https://www.paradavisual.com/que-es-sd-wan-definida-por-software/)[Consulta 24 de Abril de 2020]
 
-Sdxcentral[What is SD-WAN (Software-Defined Wide-Area Network)?](https://www.sdxcentral.com/networking/sd-wan/definitions/software-defined-sdn-wan/)
+Sdxcentral [What is SD-WAN (Software-Defined Wide-Area Network)?](https://www.sdxcentral.com/networking/sd-wan/definitions/software-defined-sdn-wan/)[Consulta 24 de Abril de 2020]
