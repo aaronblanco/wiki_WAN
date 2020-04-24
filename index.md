@@ -122,6 +122,7 @@ La idea se centra en que hay muchas tareas no esenciales que pueden funcionar a 
 **ISP:** El proveedor de servicios de Internet, (ISP, por las siglas en inglés de Internet service provider) es la empresa que brinda conexión a Internet a sus clientes.
 
 **PPP:** Protocolo de conexión punto a punto.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7PtTn38f4os" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **LCP:** Link Control Protocol, forma parte de las conexiones punto a punto, se encarga de preparar las comunicaciones mediante envios de paquetes LCP para establecer la tramisión de datos.
 
