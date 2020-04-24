@@ -103,8 +103,10 @@ No obstante, el hecho de usar conexiones a través de las infraestructuras exist
 ## 4. Redes WAN híbridas.
 **Actualmente las empresas están migrando sus datos de sus servidores locales a la nube, es una realidad, ahí es cuando entra la red híbrida. La red híbrida mantiene las conexiones MPLS más tradicionales para el tráfico esencial, no obstante, hay muchas situaciones en las que no es necesario una red WAN privada mucho más costosa. De ahí surge SD-WAN, una manera de administrar la red por software.
 La idea se centra en que hay muchas tareas no esenciales que pueden funcionar a través de Internet aunque implique menos confiabilidad.**
+
 ![Imagen SDN](./SDN.png)
 
+**Esta tecnología reciente, funciona creando una especie de red virtualizada en la que la configuración y monitorización pasan a estar en un software y no en el hardware físico. No solo es más sencilla de implementar, ya que se obvian los costos de ir manualmente a congfigurar los dispositivos, si no que se puede tener un control más claro de forma centralizada. Esto no implica que el tráfico esencial deje de usar conexiones punto a punto, pero hay un ahorro significativo en la carga de la red al usar infraestructuras públicas. **
 
  
 ## 5. Glosario. 
@@ -166,3 +168,5 @@ Wikipedia [GRE](https://es.wikipedia.org/wiki/GRE)[Consulta 24 de Abril de 2020]
 Wikipedia [BGP](https://es.wikipedia.org/wiki/Border_Gateway_Protocol)[Consulta 24 de Abril de 2020]
 
 Parada Visual [¿Qué es SD-WAN definida por software?](https://www.paradavisual.com/que-es-sd-wan-definida-por-software/)
+
+Sdxcentral[What is SD-WAN (Software-Defined Wide-Area Network)?](https://www.sdxcentral.com/networking/sd-wan/definitions/software-defined-sdn-wan/)
