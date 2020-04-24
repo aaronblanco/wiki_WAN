@@ -30,16 +30,25 @@ De esta manera, paulatinamente se alcanzaría la conexión entre las LAN, confor
 
 **Junto a ello, diversas empresas (ISP) empezarón a crear su propia infraestructura de red, y con ello llevar la teconología a los hogares, para ello ampliando los nodos de interconexión en la WAN global que es internet.** 
 
+**Algunos de los proveedores existentes de WAN en España son los siguientes:**
+
+**Operadores | Características**
+------------ | -------------
+**Movistar** | Movistar ofrece un servicio llamado Flex WAN que incluye elementos de gestión centralizada de portales web con  informes, servicios virtualizados, etc. Además cuenta con la mayor infraestructura de red en el país.
+**Orange** | Orange ofrece centralización de la gestión y configuración además nos permite optimizar el enrutamiento de los paquetes a nivel de aplicación, lo cual permite escoger las mejores rutas.
+**Yoigo** | Unas de las últimas en llegar, ofrece entre sus caracterísitcas básicas, backup por conexión 4G.
+**Vodafone** | Ofrece un servicio completo que adapta el ancho de banda por distintos criterios (usuarios, aplicaciones,etc). Todo esto funcionando a tiempo real, incluyendo firewall y otras características.
+
 **Como tal, han ido evolucionando de manera que contamos con diversas tecnologías que han sido las encargadas de permitir las distintas conexiones mediante distintos dispositivos o redes. Algunas de ellas son:**
 
-Tecnología | Características
+**Tecnología | Características**
 ------------ | -------------
-IP/MPLS | Técnica de superposición diseñada para simplificar mediante la conmutación de paquetes usando algunas carácteristicas de redes no orientadas a la conexión.
-PDH | Primer estandar de transmisión digital el cual multiplexa las señales, se propuso como una manera de unificar la tecnología en todo el mundo.
-SDH | Derivado del SDH, esta nueva tecnología síncrona mejoraría las debilidades de su antecesor, especificando velocidaides de transmisión, el formato, o el mismo funcionamiento de los equipos.
-SONET | Estandar para multiplexar tráfico digital, similar al SDH pero usado en Norteamérica. 
-ATM | Se utilizó sobre la red troncal SONET/SDH, de forma asíncrona, se diseñó para gestionar tráfico de datos y voz y video de baja latencia. 
-X.25 | Recomendación actuan en deshuso, define niveles de capa física, datos y red. Es una interfaz entre los terminales de datos y sus destinos. Funcionan como paquetes.
+**IP/MPLS** | Técnica de superposición diseñada para simplificar mediante la conmutación de paquetes usando algunas carácteristicas de redes no orientadas a la conexión.
+**PDH** | Primer estandar de transmisión digital el cual multiplexa las señales, se propuso como una manera de unificar la tecnología en todo el mundo.
+**SDH** | Derivado del SDH, esta nueva tecnología síncrona mejoraría las debilidades de su antecesor, especificando velocidaides de transmisión, el formato, o el mismo funcionamiento de los equipos.
+**SONET** | Estandar para multiplexar tráfico digital, similar al SDH pero usado en Norteamérica. 
+**ATM** | Se utilizó sobre la red troncal SONET/SDH, de forma asíncrona, se diseñó para gestionar tráfico de datos y voz y video de baja latencia. 
+**X.25** | Recomendación actuan en deshuso, define niveles de capa física, datos y red. Es una interfaz entre los terminales de datos y sus destinos. Funcionan como paquetes.
 
 **En paralelo ha sido necesario la inclusión de distintas tecnologías para poder llevar la carga de multitud de nuevos dispositivos conectados.
 En referencia a la topología de las wan, estas se organizan de la siguiente manera:**
@@ -169,8 +178,10 @@ ADSLzone [¿Qué es PPPoE y PPPoA?](https://www.adslzone.net/adsl_pppoe.html) [C
 
 Wikipedia [GRE](https://es.wikipedia.org/wiki/GRE) [Consulta 24 de Abril de 2020]
 
-Wikipedia [BGP](https://es.wikipedia.org/wiki/Border_Gateway_Protocol)[Consulta 24 de Abril de 2020]
+Wikipedia [BGP](https://es.wikipedia.org/wiki/Border_Gateway_Protocol) [Consulta 24 de Abril de 2020]
 
-Parada Visual [¿Qué es SD-WAN definida por software?](https://www.paradavisual.com/que-es-sd-wan-definida-por-software/)[Consulta 24 de Abril de 2020]
+Parada Visual [¿Qué es SD-WAN definida por software?](https://www.paradavisual.com/que-es-sd-wan-definida-por-software/) [Consulta 24 de Abril de 2020]
 
-Sdxcentral [What is SD-WAN (Software-Defined Wide-Area Network)?](https://www.sdxcentral.com/networking/sd-wan/definitions/software-defined-sdn-wan/)[Consulta 24 de Abril de 2020]
+Sdxcentral [What is SD-WAN (Software-Defined Wide-Area Network)?](https://www.sdxcentral.com/networking/sd-wan/definitions/software-defined-sdn-wan/) [Consulta 24 de Abril de 2020]
+
+Redeszone [Qué es el servicio SD-WAN en las operadoras](https://www.redeszone.net/tutoriales/redes-cable/que-es-sd-wan/) [Consulta 25 de Abril de 2020]
