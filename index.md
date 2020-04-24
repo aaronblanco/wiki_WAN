@@ -123,7 +123,7 @@ La idea se centra en que hay muchas tareas no esenciales que pueden funcionar a 
 
 **PPP:** Protocolo de conexión punto a punto.
 
-[![IMAGE ALT TEXT HERE](https://www.youtube.com/embed/7PtTn38f4os.jpg)](https://www.youtube.com/embed/7PtTn38f4os)
+[![Explicación PPP](video.jpg)](https://www.youtube.com/embed/7PtTn38f4os)
 **LCP:** Link Control Protocol, forma parte de las conexiones punto a punto, se encarga de preparar las comunicaciones mediante envios de paquetes LCP para establecer la tramisión de datos.
 
 **AP:** Protocolo de autenticación.
