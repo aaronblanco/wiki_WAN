@@ -109,7 +109,7 @@ La idea se centra en que hay muchas tareas no esenciales que pueden funcionar a 
 
 ![Imagen SDN](./SDN.png)
 
-**Esta tecnología reciente, funciona creando una especie de red virtualizada en la que la configuración y monitorización pasan a estar en un software y no en el hardware físico. No solo es más sencilla de implementar, ya que se obvian los costos de ir manualmente a congfigurar los dispositivos, si no que se puede tener un control más claro de forma centralizada. Esto no implica que el tráfico esencial deje de usar conexiones punto a punto, pero hay un ahorro significativo en la carga de la red al usar infraestructuras públicas. **
+**Esta tecnología reciente, funciona creando una especie de red virtualizada en la que la configuración y monitorización pasan a estar en un software y no en el hardware físico. No solo es más sencilla de implementar, ya que se obvian los costos de ir manualmente a congfigurar los dispositivos, si no que se puede tener un control más claro de forma centralizada. Esto no implica que el tráfico esencial deje de usar conexiones punto a punto, pero hay un ahorro significativo en la carga de la red al usar infraestructuras públicas.**
 
  
 ## 5. Glosario. 
@@ -146,27 +146,27 @@ EcuRed [Red de área extensa (WAN)](https://www.ecured.cu/Red_de_%C3%A1rea_exten
 
 Tutorialspoint [Conexion punto a punto](https://www.tutorialspoint.com/point-to-point-protocol-ppp) [Consulta 20 de Abril de 2020]
 
-Whatismyipaddress [Conexion punto a punto](https://whatismyipaddress.com/ppp-pppoe)[Consulta 20 de Abril de 2020]
+Whatismyipaddress [Conexion punto a punto](https://whatismyipaddress.com/ppp-pppoe) [Consulta 20 de Abril de 2020]
 
-Wikipedia [Link Control Protocol](https://en.wikipedia.org/wiki/Link_Control_Protocol)[Consulta 20 de Abril de 2020]
+Wikipedia [Link Control Protocol](https://en.wikipedia.org/wiki/Link_Control_Protocol) [Consulta 20 de Abril de 2020]
 
-Wikipedia [High-Data Link Control](https://en.wikipedia.org/wiki/High-Level_Data_Link_Control)[Consulta 21 de Abril de 2020]
+Wikipedia [High-Data Link Control](https://en.wikipedia.org/wiki/High-Level_Data_Link_Control) [Consulta 21 de Abril de 2020]
 
-Ionos [Los tipos de redes más conocidos](https://www.ionos.es/digitalguide/servidores/know-how/los-tipos-de-redes-mas-conocidos/)[Consulta 22 de Abril de 2020]
+Ionos [Los tipos de redes más conocidos](https://www.ionos.es/digitalguide/servidores/know-how/los-tipos-de-redes-mas-conocidos/) [Consulta 22 de Abril de 2020]
 
-Ramonmillan [Qué es... MPLS](https://www.ramonmillan.com/tutoriales/mpls.php)[Consulta 22 de Abril de 2020]
+Ramonmillan [Qué es... MPLS](https://www.ramonmillan.com/tutoriales/mpls.php) [Consulta 22 de Abril de 2020]
 
-Ramonmillan [SDH Y PDH](https://www.ramonmillan.com/tutoriales/mpls.php)[Consulta 22 de Abril de 2020]
+Ramonmillan [SDH Y PDH](https://www.ramonmillan.com/tutoriales/mpls.php) [Consulta 22 de Abril de 2020]
 
-Cisco [A Brief Overview of SONET Technology](https://www.cisco.com/c/en/us/support/docs/optical/synchronous-optical-network-sonet/13567-sonet-tech-tips.html)[Consulta 22 de Abril de 2020]
+Cisco [A Brief Overview of SONET Technology](https://www.cisco.com/c/en/us/support/docs/optical/synchronous-optical-network-sonet/13567-sonet-tech-tips.html) [Consulta 22 de Abril de 2020]
 
-Wikipedia [Estandar ATM](https://es.wikipedia.org/wiki/Modo_de_transferencia_as%C3%ADncrona)[Consulta 22 de Abril de 2020]
+Wikipedia [Estandar ATM](https://es.wikipedia.org/wiki/Modo_de_transferencia_as%C3%ADncrona) [Consulta 22 de Abril de 2020]
 
-IBM [Redes X.25](https://www.ibm.com/support/knowledgecenter/es/ssw_ibm_i_72/rzajt/rzajtx25con.htm)[Consulta 22 de Abril de 2020]
+IBM [Redes X.25](https://www.ibm.com/support/knowledgecenter/es/ssw_ibm_i_72/rzajt/rzajtx25con.htm) [Consulta 22 de Abril de 2020]
 
-ADSLzone [¿Qué es PPPoE y PPPoA?](https://www.adslzone.net/adsl_pppoe.html)[Consulta 24 de Abril de 2020]
+ADSLzone [¿Qué es PPPoE y PPPoA?](https://www.adslzone.net/adsl_pppoe.html) [Consulta 24 de Abril de 2020]
 
-Wikipedia [GRE](https://es.wikipedia.org/wiki/GRE)[Consulta 24 de Abril de 2020]
+Wikipedia [GRE](https://es.wikipedia.org/wiki/GRE) [Consulta 24 de Abril de 2020]
 
 Wikipedia [BGP](https://es.wikipedia.org/wiki/Border_Gateway_Protocol)[Consulta 24 de Abril de 2020]
 
