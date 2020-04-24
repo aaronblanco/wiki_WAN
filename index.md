@@ -88,16 +88,16 @@ No obstante, el hecho de usar conexiones a través de las infraestructuras exist
  **Un clásico hoy en día como las conexiones de acceso remoto, permiten la conexión a otro ordenador a través de internet, de esta manera se pueden solucionar problemas sin tener que acceder a la ubicación del ordenador remoto.**
  
  * **PPPoE.**
- **Este protocolo consigue unir Ethernet con el protocolo PPP, de ahí que se encapsula en este protocolo para no perder los beneficios de ambos. **
+ **Este protocolo consigue unir Ethernet con el protocolo PPP, de ahí que se encapsula en este protocolo para no perder los beneficios de ambos.**
  
  * **VPN.** 
- **Con una mayor relevancia de las conexiones remotas desde cualquier lado, para preservar la seguridad, se creó este protocolo el cual permite la encriptación al igual que la privacidad. **
+ **Con una mayor relevancia de las conexiones remotas desde cualquier lado, para preservar la seguridad, se creó este protocolo el cual permite la encriptación al igual que la privacidad.**
  
  * **GRE.** 
  **El protocolo GRE (Generic Routing Encapsulation) sigue un poco la filosofía del VPN, permite "tunelizar" los paquetes a través de internet, posibilitando así su anonimato.**
  
  * **BGP.** 
- **Este protocolo se usa para intercambiar información entre routers y así rellenar sus tablas, se suele usar principalmente el eBGP, es decir, externo entre ISPs para tener la información necesaria para enrouter las distintas tramas de datos aunque existe la versión iBGP para redes internas. **
+ **Este protocolo se usa para intercambiar información entre routers y así rellenar sus tablas, se suele usar principalmente el eBGP, es decir, externo entre ISPs para tener la información necesaria para enrouter las distintas tramas de datos aunque existe la versión iBGP para redes internas.**
  
  
 ## 4. Glosario. 
