@@ -185,3 +185,6 @@ Parada Visual [¿Qué es SD-WAN definida por software?](https://www.paradavisual
 Sdxcentral [What is SD-WAN (Software-Defined Wide-Area Network)?](https://www.sdxcentral.com/networking/sd-wan/definitions/software-defined-sdn-wan/) [Consulta 24 de Abril de 2020]
 
 Redeszone [Qué es el servicio SD-WAN en las operadoras](https://www.redeszone.net/tutoriales/redes-cable/que-es-sd-wan/) [Consulta 25 de Abril de 2020]
+
+
+@autor: Aarón Blanco Álvarez
