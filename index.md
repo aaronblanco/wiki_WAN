@@ -103,7 +103,7 @@ No obstante, el hecho de usar conexiones a través de las infraestructuras exist
 ## 4. Redes WAN híbridas.
 **Actualmente las empresas están migrando sus datos de sus servidores locales a la nube, es una realidad, ahí es cuando entra la red híbrida. La red híbrida mantiene las conexiones MPLS más tradicionales para el tráfico esencial, no obstante, hay muchas situaciones en las que no es necesario una red WAN privada mucho más costosa. De ahí surge SD-WAN, una manera de administrar la red por software.
 La idea se centra en que hay muchas tareas no esenciales que pueden funcionar a través de Internet aunque implique menos confiabilidad. **
-
+![Imagen SDN](./SDN.png)
 
 
  
