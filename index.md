@@ -15,8 +15,9 @@
  * **VPN.** 
  * **GRE.** 
  * **BGP.** 
-4. **Glosario.** 
-5. **Bibliografía**
+4. **Redes WAN híbridas.**
+5. **Glosario.** 
+6. **Bibliografía**
 
 
 ## 1. Tecnologías WAN: Descripción general. 
@@ -99,8 +100,14 @@ No obstante, el hecho de usar conexiones a través de las infraestructuras exist
  * **BGP.** 
  **Este protocolo se usa para intercambiar información entre routers y así rellenar sus tablas, se suele usar principalmente el eBGP, es decir, externo entre ISPs para tener la información necesaria para enrouter las distintas tramas de datos aunque existe la versión iBGP para redes internas.**
  
+## 4. Redes WAN híbridas.
+**Actualmente las empresas están migrando sus datos de sus servidores locales a la nube, es una realidad, ahí es cuando entra la red híbrida. La red híbrida mantiene las conexiones MPLS más tradicionales para el tráfico esencial, no obstante, hay muchas situaciones en las que no es necesario una red WAN privada mucho más costosa. De ahí surge SD-WAN, una manera de administrar la red por software.
+La idea se centra en que hay muchas tareas no esenciales que pueden funcionar a través de Internet aunque implique menos confiabilidad. **
+
+
+
  
-## 4. Glosario. 
+## 5. Glosario. 
 **WAN:** Wide Area Network, Red de Área Amplia.
 
 **ARPA:** Advanced Research Projects Agency, Agencia de Proyectos de Investigación Avanzados.
@@ -123,7 +130,7 @@ No obstante, el hecho de usar conexiones a través de las infraestructuras exist
 
 
 
-## 5. Bibliografía
+## 6. Bibliografía
 NODO50 [Introducción a Internet](https://www.nodo50.org/manuales/internet/1.htm) [Consulta 10 de Abril de 2020]
 
 Definicion.de [Definicion de WAN](https://definicion.de/wan/) [Consulta 10 de Abril de 2020]
@@ -152,8 +159,10 @@ Wikipedia [Estandar ATM](https://es.wikipedia.org/wiki/Modo_de_transferencia_as%
 
 IBM [Redes X.25](https://www.ibm.com/support/knowledgecenter/es/ssw_ibm_i_72/rzajt/rzajtx25con.htm)[Consulta 22 de Abril de 2020]
 
-ADSLzone [¿Qué es PPPoE y PPPoA?](https://www.adslzone.net/adsl_pppoe.html)
+ADSLzone [¿Qué es PPPoE y PPPoA?](https://www.adslzone.net/adsl_pppoe.html)[Consulta 24 de Abril de 2020]
 
-Wikipedia [GRE](https://es.wikipedia.org/wiki/GRE)
+Wikipedia [GRE](https://es.wikipedia.org/wiki/GRE)[Consulta 24 de Abril de 2020]
 
-Wikipedia [BGP](https://es.wikipedia.org/wiki/Border_Gateway_Protocol)
+Wikipedia [BGP](https://es.wikipedia.org/wiki/Border_Gateway_Protocol)[Consulta 24 de Abril de 2020]
+
+Parada Visual [¿Qué es SD-WAN definida por software?](https://www.paradavisual.com/que-es-sd-wan-definida-por-software/)
