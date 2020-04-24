@@ -133,7 +133,7 @@ La idea se centra en que hay muchas tareas no esenciales que pueden funcionar a 
 **CHAP:** Protocolo de autentificación por Handshake(Establecimiento de conexión).
 
 **HDLC:** Protocolo de capa de enlace usado por Cisco que encapsula tramas de datos.
-
+![Imagen hdlc](./hdlc.PNG)
 
 
 ## 6. Bibliografía
